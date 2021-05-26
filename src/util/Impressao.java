@@ -3,7 +3,7 @@
  * To change this template file, choose Tools | Templates
  * and open the template in the editor.
  */
-package RedBlackTree;
+package util;
 
 /**
  *
@@ -15,7 +15,7 @@ import java.util.Collections;
 import java.util.List;
 import java.util.function.Function;
 
-public class TreePrinter<T> {
+public class Impressao<T> {
 
     private Function<T, String> getLabel;
     private Function<T, T> getLeft;
@@ -28,7 +28,7 @@ public class TreePrinter<T> {
     private int hspace = 2;
     private int tspace = 1;
 
-    public TreePrinter(Function<T, String> getLabel, Function<T, T> getLeft, Function<T, T> getRight) {
+    public Impressao(Function<T, String> getLabel, Function<T, T> getLeft, Function<T, T> getRight) {
         this.getLabel = getLabel;
         this.getLeft = getLeft;
         this.getRight = getRight;

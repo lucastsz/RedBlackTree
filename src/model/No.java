@@ -1,4 +1,4 @@
-package RedBlackTree;
+package model;
 
 public class No {
     int valor;

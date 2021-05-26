@@ -1,6 +1,6 @@
-package RedBlackTree.App;
+package main;
 
-import RedBlackTree.RedBlackTree;
+import model.RedBlackTree;
 
 public class AppRedBlackTree {
 

@@ -1,4 +1,6 @@
-package RedBlackTree;
+package model;
+
+import util.Impressao;
 
 public class RedBlackTree {
    
@@ -308,7 +310,7 @@ public class RedBlackTree {
 
         public void imprimir() {
 
-          TreePrinter<No> p = new TreePrinter<>(n -> n.valor + "(" + n.Cor() + ")", n -> n.esquerda, n -> n.direita);
+          Impressao<No> p = new Impressao<>(n -> n.valor + "(" + n.Cor() + ")", n -> n.esquerda, n -> n.direita);
           p.setSquareBranches(false);
           p.printTree(raiz);
 
