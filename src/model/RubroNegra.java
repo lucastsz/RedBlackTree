@@ -2,12 +2,12 @@ package model;
 
 import util.Impressao;
 
-public class RedBlackTree {
+public class RubroNegra {
    
     private No raiz;
     private No RNULL;
 
-    public RedBlackTree() {
+    public RubroNegra() {
         RNULL = new No();
         RNULL.cor = 0;
         RNULL.esquerda = null;
