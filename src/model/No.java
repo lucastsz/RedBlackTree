@@ -15,4 +15,14 @@ public class No {
         }
         return "INVÁLIDO";
     }
+
+    @Override
+    public String toString() {
+        if (valor == 0 && cor == 0){
+            return "NÃO EXISTE ESSE NÓ";
+        }
+        return "No " + valor + " (" + Cor() + ')';
+    }
+    
+    
 }

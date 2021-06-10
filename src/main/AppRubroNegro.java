@@ -21,6 +21,11 @@ public class AppRubroNegro {
        
        arn.imprimir();
        
+        System.out.println(arn.busca(13));
+       
+      
+        
+       
        
        
     }
